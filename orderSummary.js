@@ -37,7 +37,7 @@ var tellimus = {
   const row2 = tellimus.rows[1]
   const row3 = tellimus.rows[2]
   const rowDesc1 = ('Name: ' + row1.name + ', amount: ' + row1.amount + ', price: ' + row1.price)
-  const rowDesc2 = ('Name: ' + row2.name + ', amount: ' + row2.amount + ', price: ' + row2.price * row2.amount)
+  const rowDesc2 = ('Name: ' + row2.name + ', amount: ' + row2.amount + ', price: ' + row2.price + ' fullPrice: ' + row2.price * row2.amount)
   const rowDesc3 = ('Name: ' + row3.name + ', amount: ' + row3.amount + ', price: ' + row3.price)
   const koguSumma = ((tellimus.rows[0].amount * tellimus.rows[0].price + tellimus.rows[1].amount * tellimus.rows[1].price + tellimus.rows[2].amount * tellimus.rows[2].price) * 1.2)
   
